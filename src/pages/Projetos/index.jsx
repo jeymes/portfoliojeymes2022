@@ -12,6 +12,35 @@ export default function projetos() {
                 </h1>
             </J.ContainerTitle>
 
+            <J.ContainerProjeto>
+
+                <J.TitleProjeto>
+
+                    <h3>Portfólio</h3>
+
+                </J.TitleProjeto>
+
+                <J.SubProjeto>
+
+                    <img src="./img/portfolio.png" alt="Portfólio" />
+
+                    <J.ContainerTech>
+
+                        <Tecnologias
+                            Title="Tecnologias"
+                            TecHtml="Html"
+                            TecReact="React.Js"
+                            TecStyled="Styled Components"
+                            TecJavaScript="Java Script"
+                            TecCss="Css" />
+
+                    </J.ContainerTech>
+
+                </J.SubProjeto>
+
+
+            </J.ContainerProjeto>
+
             <J.SubContainer>
 
                 <J.ContainerProjeto>
@@ -60,7 +89,7 @@ export default function projetos() {
                             <J.ContainerTech>
 
                                 <Tecnologias
-                                Title="Tecnologias"
+                                    Title="Tecnologias"
                                     TecHtml="Html"
                                     TecReact="React.Js"
                                     TecStyled="Styled Components"
@@ -92,7 +121,7 @@ export default function projetos() {
                             <J.ContainerTech>
 
                                 <Tecnologias
-                                Title="Tecnologias"
+                                    Title="Tecnologias"
                                     TecHtml="Html"
                                     TecReact="React.Js"
                                     TecStyled="Styled Components"
@@ -111,7 +140,7 @@ export default function projetos() {
 
                     <J.TitleProjeto>
 
-                        <h3>TesteIdeia2001</h3>
+                        <h3>QRideia</h3>
 
                     </J.TitleProjeto>
 
@@ -124,7 +153,7 @@ export default function projetos() {
                             <J.ContainerTech>
 
                                 <Tecnologias
-                                Title="Tecnologias"
+                                    Title="Tecnologias"
                                     TecHtml="Html"
                                     TecCss="Css" />
                             </J.ContainerTech>
