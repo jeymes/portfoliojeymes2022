@@ -87,10 +87,13 @@ span{
 
     a{
         color: white;
+        text-align: center;
+        padding: 0px 100px;
         width: 100%;
         font-size: 20px;
         font-weight: 700;
         text-decoration: none;
+        border: 1px solid red;
 
         
     }

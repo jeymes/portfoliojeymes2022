@@ -29,6 +29,8 @@ export default function Habilidades() {
 
                     <img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" alt="styled-components" />
 
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="bootstrap" />
+
 
                 </J.Habilidades>
 
@@ -46,7 +48,9 @@ export default function Habilidades() {
 
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" />
 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="bootstrap" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original-wordmark.svg" alt="jira" />
+
+
 
 
 

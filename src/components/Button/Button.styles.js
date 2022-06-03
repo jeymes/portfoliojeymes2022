@@ -22,7 +22,7 @@ p{
 @media (max-width:840px) {
     padding: 5px;
     }
-    @media (max-width:420px) {
+    @media (max-width:430px) {
     font-size: 12px;
     }
 `;
@@ -69,8 +69,8 @@ export const ButtonContato = styled.div`
         margin-inline:3px;
         padding: 10px 50px;
     }
-    @media (max-width:420px) {
-        padding: 5px 40px;
+    @media (max-width:430px) {
+        padding: 6px 40px;
         margin-block: 10px;
     }
 `;
@@ -105,7 +105,8 @@ export const ButtonQuemSou = styled.div`
         margin-inline:3px;
         padding: 10px 50px;
     }
-    @media (max-width:420px) {
-        padding: 5px 40px;
+    @media (max-width:430px) {
+        padding: 6px 40px;
+        margin-block: 10px;
     }
 `;

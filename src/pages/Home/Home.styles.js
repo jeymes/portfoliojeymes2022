@@ -16,10 +16,16 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 width: 100%;
-/* border: 1px solid red; */
+border: 1px solid red;
 
 @media (max-width:840px) {
     flex-direction:column-reverse;
+    justify-content: center;
+    height: 100%;
+    }
+    @media (max-width:430px) {
+    flex-direction:column-reverse;
+    justify-content: center;
     height: 100%;
     }
 
@@ -30,7 +36,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction:column;
-/* border: 1px solid red; */
+border: 1px solid red;
 `;
 
 export const SubDescripion = styled.div`
@@ -157,6 +163,7 @@ export const ContainerImg = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
+border: 1px solid red;
 img{
     width: 350px;
     border-radius: 50%;
@@ -168,10 +175,10 @@ img{
         width: 250px;
     }
     @media (max-width:840px) {
-        width: 200px;
+        width: 210px;
     }
-    @media (max-width:420px) {
-        width: 150px;
+    @media (max-width:430px) {
+        width: 200px;
     }
 }
 `;
