@@ -93,7 +93,7 @@ span{
         font-size: 20px;
         font-weight: 700;
         text-decoration: none;
-        border: 1px solid red;
+        /* border: 1px solid red; */
 
         
     }

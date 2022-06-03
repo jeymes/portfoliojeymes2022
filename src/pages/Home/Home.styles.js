@@ -16,7 +16,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 width: 100%;
-border: 1px solid red;
+/* border: 1px solid red; */
 
 @media (max-width:840px) {
     flex-direction:column-reverse;
@@ -36,7 +36,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction:column;
-border: 1px solid red;
+/* border: 1px solid red; */
 `;
 
 export const SubDescripion = styled.div`
@@ -163,7 +163,7 @@ export const ContainerImg = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-border: 1px solid red;
+/* border: 1px solid red; */
 img{
     width: 350px;
     border-radius: 50%;
