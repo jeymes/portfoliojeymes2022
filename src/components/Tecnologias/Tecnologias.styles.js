@@ -68,6 +68,10 @@ margin-top: 15px;
         font-size: 12px;
         padding: 2px;
 }
+@media (max-width: 430px) {
+        font-size: 12px;
+        padding: 1px;
+}
 }
 .React{
     background-color: blueviolet;
@@ -83,6 +87,10 @@ margin-top: 15px;
         font-size: 12px;
         padding: 2px;
 }
+@media (max-width: 430px) {
+        font-size: 12px;
+        padding: 1px;
+}
 }
 .Styled{
     background-color: #C71585;
@@ -97,6 +105,10 @@ margin-top: 15px;
 @media (max-width: 580px) {
         font-size: 12px;
         padding: 2px;
+}
+@media (max-width: 430px) {
+        font-size: 12px;
+        padding: 1px;
 }
 }
 .JavaScript{
@@ -114,6 +126,10 @@ margin-top: 15px;
         font-size: 12px;
         padding: 2px;
 }
+@media (max-width: 430px) {
+        font-size: 12px;
+        padding: 1px;
+}
 }
 .Css{
     background-color: #48D1CC;
@@ -129,6 +145,10 @@ margin-top: 15px;
 @media (max-width: 580px) {
         font-size: 13px;
         padding: 2px;
+}
+@media (max-width: 430px) {
+        font-size: 12px;
+        padding: 1px;
 }
 }
 }
