@@ -13,7 +13,7 @@ export default function Home() {
 
                     <J.SubDescripion>
 
-                        <h2 className="lineHi">Hello i'm </h2>
+                        <h2 className="lineHi">Hello I'm </h2>
                         
                         <h1 className="line">Jemerson de Sousa Pinheiro </h1>
 
