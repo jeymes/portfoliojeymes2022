@@ -21,7 +21,8 @@ height: 20px;
 button{
     font-size: 22px;
     width:100%;
-    padding: 8px 10px;
+    height: 35px;
+    /* padding: 8px 10px; */
     border: none;
     border-radius: 10px;
     background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );

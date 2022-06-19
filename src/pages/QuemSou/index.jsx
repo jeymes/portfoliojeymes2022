@@ -19,7 +19,7 @@ export default function QuemSou() {
 
                         <div>
                             <p>
-                                Estudante de análise de desenvolvimento de sistemas atualmente no 2.º período. Desde que me conheço como gente amo e admiro tecnologia,
+                                Estudante de análise de desenvolvimento de sistemas atualmente no 2.º Semestre. Desde que me conheço como gente amo e admiro tecnologia,
                                 tudo o que podemos desenvolver, e como ela ajuda e nos beneficia em vários âmbitos da nossa vida em geral para o mundo todo, é uma ferramenta
                                 muito poderosa. A minha primeira curiosidade sobre T.I foi tenta descobrir como e feito os, app, sites e paginas da internet quando comecei a
                                 pesquisa sobre, logo comecei-me apaixonar por tecnologia quando comecei a fazer as minhas primeiras paginas eu logo fiquei muito impressionado

@@ -1,6 +1,8 @@
 import React from "react";
 import * as J from './Projetos.styles'
 import Tecnologias from '../../components/Tecnologias/index'
+import ProjetosMain from "../../components/ProjetoMain";
+import Links from "../../components/Links";
 
 export default function projetos() {
     return (
@@ -12,156 +14,80 @@ export default function projetos() {
                 </h1>
             </J.ContainerTitle>
 
-            <J.ContainerProjeto>
 
-                <J.TitleProjeto>
-
-                    <h3>Portfólio</h3>
-
-                </J.TitleProjeto>
-
-                <J.SubProjeto>
-
-                    <img src="./img/portfolio.png" alt="Portfólio" />
-
-                    <J.ContainerTech>
-
-                        <Tecnologias
-                            Title="Tecnologias"
-                            TecHtml="Html"
-                            TecReact="React.Js"
-                            TecStyled="Styled Components"
-                            TecJavaScript="Java Script"
-                            TecCss="Css" />
-
-                    </J.ContainerTech>
-
-                </J.SubProjeto>
-
-
-            </J.ContainerProjeto>
 
             <J.SubContainer>
 
-                <J.ContainerProjeto>
+                <ProjetosMain
 
-                    <J.TitleProjeto>
+                    NomeProjeto='Portifolio'
+                    ImgProjeto="./img/portfolio.png" alt="Portfólio"
 
-                        <h3>StoreCell</h3>
+                    Tech={<Tecnologias
+                        Title="Tecnologias"
+                        TecHtml="Html"
+                        TecReact="React.Js"
+                        TecStyled="Styled Components"
+                        TecJavaScript="Java Script"
+                        TecCss="Css"
+                    />}
+                    // Links={<Links
+                    //     Title="Links"
+                    // />} 
+                    />
 
-                    </J.TitleProjeto>
+                <ProjetosMain
 
-                    <J.SubProjeto>
+                    NomeProjeto='StoreCell'
+                    ImgProjeto="./img/StoreCell.png" alt="StoreCell"
 
-                        <img src="./img/StoreCell.png" alt="StoreCell" />
+                    Tech={<Tecnologias
+                        Title="Tecnologias"
+                        TecHtml="Html"
+                        TecReact="React.Js"
+                        TecStyled="Styled Components"
+                        TecJavaScript="Java Script"
+                        TecCss="Css"
+                    />} />
 
-                        <J.ContainerTech>
+                <ProjetosMain
 
-                            <Tecnologias
-                                Title="Tecnologias"
-                                TecHtml="Html"
-                                TecReact="React.Js"
-                                TecStyled="Styled Components"
-                                TecJavaScript="Java Script"
-                                TecCss="Css" />
+                    NomeProjeto='Calculadora'
+                    ImgProjeto="./img/Calculadora.png" alt="Calculadora"
 
-                        </J.ContainerTech>
+                    Tech={<Tecnologias
+                        Title="Tecnologias"
+                        TecHtml="Html"
+                        TecReact="React.Js"
+                        TecStyled="Styled Components"
+                        TecJavaScript="Java Script"
+                        TecCss="Css"
+                    />} />
 
-                    </J.SubProjeto>
+                <ProjetosMain
 
+                    NomeProjeto='MapGrid'
+                    ImgProjeto="./img/MapGrid.png" alt="MapGrid"
 
-                </J.ContainerProjeto>
+                    Tech={<Tecnologias
+                        Title="Tecnologias"
+                        TecHtml="Html"
+                        TecReact="React.Js"
+                        TecStyled="Styled Components"
+                        TecJavaScript="Java Script"
+                        TecCss="Css"
+                    />} />
 
-                <J.ContainerProjeto>
+                <ProjetosMain
 
-                    <J.TitleProjeto>
+                    NomeProjeto='QrIdeia'
+                    ImgProjeto="./img/QrIdeia.png" alt="QrIdeia"
 
-                        <h3>Calculadora</h3>
-
-                    </J.TitleProjeto>
-
-                    <J.SubProjeto>
-
-                        <img src="./img/Calculadora.png" alt="Calculadora" />
-
-                        <J.ContainerTech>
-
-                            <J.ContainerTech>
-
-                                <Tecnologias
-                                    Title="Tecnologias"
-                                    TecHtml="Html"
-                                    TecReact="React.Js"
-                                    TecStyled="Styled Components"
-                                    TecJavaScript="Java Script"
-                                    TecCss="Css" />
-
-                            </J.ContainerTech>
-
-                        </J.ContainerTech>
-
-                    </J.SubProjeto>
-
-                </J.ContainerProjeto>
-
-                <J.ContainerProjeto>
-
-                    <J.TitleProjeto>
-
-                        <h3>MapGrid</h3>
-
-                    </J.TitleProjeto>
-
-                    <J.SubProjeto>
-
-                        <img src="./img/MapGrid.png" alt="MapGrid" />
-
-                        <J.ContainerTech>
-
-                            <J.ContainerTech>
-
-                                <Tecnologias
-                                    Title="Tecnologias"
-                                    TecHtml="Html"
-                                    TecReact="React.Js"
-                                    TecStyled="Styled Components"
-                                    TecJavaScript="Java Script"
-                                    TecCss="Css" />
-
-                            </J.ContainerTech>
-
-                        </J.ContainerTech>
-
-                    </J.SubProjeto>
-
-                </J.ContainerProjeto>
-
-                <J.ContainerProjeto>
-
-                    <J.TitleProjeto>
-
-                        <h3>QRideia</h3>
-
-                    </J.TitleProjeto>
-
-                    <J.SubProjeto>
-
-                        <img src="./img/QrIdeia.png" alt="QrIdeia" />
-
-                        <J.ContainerTech>
-
-                            <J.ContainerTech>
-
-                                <Tecnologias
-                                    Title="Tecnologias"
-                                    TecHtml="Html"
-                                    TecCss="Css" />
-                            </J.ContainerTech>
-
-                        </J.ContainerTech>
-                    </J.SubProjeto>
-
-                </J.ContainerProjeto>
+                    Tech={<Tecnologias
+                        Title="Tecnologias"
+                        TecHtml="Html"
+                        TecCss="Css"
+                    />} />
 
             </J.SubContainer>
 
