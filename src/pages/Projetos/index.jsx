@@ -31,10 +31,15 @@ export default function projetos() {
                         TecJavaScript="Java Script"
                         TecCss="Css"
                     />}
-                    // Links={<Links
-                    //     Title="Links"
-                    // />} 
-                    />
+
+                    Github={<Links
+                        TitleGit="Github"
+                        Github="https://github.com/jeymes/portfoliojeymes2022"
+                        TitleSite="Site"
+                        Site="https://portfoliojeymes.herokuapp.com/home"
+                    />}
+
+                />
 
                 <ProjetosMain
 
@@ -48,7 +53,14 @@ export default function projetos() {
                         TecStyled="Styled Components"
                         TecJavaScript="Java Script"
                         TecCss="Css"
-                    />} />
+                    />}
+                    Github={<Links
+                        TitleGit="Github"
+                        Github="https://github.com/Escanor-7/Store-Cell"
+                        TitleSite="Site"
+                        Site="https://portfoliojeymes.herokuapp.com/home"
+                    />}
+                />
 
                 <ProjetosMain
 
@@ -62,7 +74,15 @@ export default function projetos() {
                         TecStyled="Styled Components"
                         TecJavaScript="Java Script"
                         TecCss="Css"
-                    />} />
+                    />}
+
+                    Github={<Links
+                        TitleGit="Github"
+                        Github="https://github.com/jeymes/Calculadora"
+                        TitleSite="Site"
+                        Site="https://jcalculadora.herokuapp.com/"
+                    />}
+                />
 
                 <ProjetosMain
 
@@ -76,7 +96,15 @@ export default function projetos() {
                         TecStyled="Styled Components"
                         TecJavaScript="Java Script"
                         TecCss="Css"
-                    />} />
+                    />}
+
+                    Github={<Links
+                        TitleGit="Github"
+                        Github="https://github.com/jeymes/MapGrid"
+                        TitleSite="Site"
+                        Site="https://jmapgrid.herokuapp.com/"
+                    />}
+                />
 
                 <ProjetosMain
 
@@ -87,7 +115,15 @@ export default function projetos() {
                         Title="Tecnologias"
                         TecHtml="Html"
                         TecCss="Css"
-                    />} />
+                    />}
+
+                    Github={<Links
+                        TitleGit="Github"
+                        Github="https://github.com/jeymes/TesteIdeia2001"
+                        TitleSite="Site"
+                        Site="https://portfoliojeymes.herokuapp.com/home"
+                    />}
+                />
 
             </J.SubContainer>
 

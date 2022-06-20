@@ -3,7 +3,7 @@ import * as J from './ProjetoMain.styles';
 
 export default function ProjetosMain(props) {
 
-    const {ImgProjeto} = props
+    const { ImgProjeto } = props
 
     return (
 
@@ -21,9 +21,11 @@ export default function ProjetosMain(props) {
                     <img src={ImgProjeto} />
 
                     <J.ContainerTech>
-
                         <>{props.Tech}</>
-                        <>{props.Links}</>
+                        <div className="butoes">
+                            <>{props.Site}</>
+                            <>{props.Github}</>
+                        </div>
 
                     </J.ContainerTech>
 

@@ -8,7 +8,6 @@ justify-content: flex-start;
 align-items: center;
 width:100%;
 margin-top: 20px;
-/* border: 1px solid red; */
 
 .tech{
 display: flex;
@@ -16,13 +15,11 @@ justify-content: center;
 align-items: center;
 width:100%;
 height: 20px;
-/* border: 1px solid red; */
 
 button{
     font-size: 22px;
     width:100%;
-    height: 35px;
-    /* padding: 8px 10px; */
+    height: 30px;
     border: none;
     border-radius: 10px;
     background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );
@@ -53,7 +50,7 @@ justify-content: space-evenly;
 align-items: center;
 width:100%;
 margin-top: 15px;
-/* border: 1px solid red; */
+
 
 .Html{
     background-color: red;

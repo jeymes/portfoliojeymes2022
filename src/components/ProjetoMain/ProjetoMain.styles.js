@@ -6,7 +6,7 @@ flex-direction: column;
 justify-content: space-evenly;
 align-items: center;
 width: 600px;
-height: 400px;
+height: 420px;
 color: white;
 margin-block: 20px;
 border: 1px solid rgba(20,157,208,1) ;
@@ -17,11 +17,11 @@ box-shadow: 0 0 5px rgba(20,157,208,1);
 }
 @media (max-width: 580px) {
     width: 400px;
-    height: 300px;
+    height: 320px;
 }
 @media (max-width: 500px) {
     width: 350px;
-    height: 300px;
+    height: 320px;
 }
 
 :hover{
@@ -64,4 +64,11 @@ export const ContainerTech = styled.div`
     flex-direction: column;
     align-items: center;
     width: 100%;
+
+    .butoes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    }
 `;
